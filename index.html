@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Example</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0; /* Heller Hintergrund */
+        }
+        button {
+            font-size: 20px; /* Textgröße des Buttons */
+            padding: 15px 30px; /* Innenabstand für den Button */
+            background-color: #ff4d4d; /* Rote Hintergrundfarbe */
+            color: white; /* Weiße Schriftfarbe */
+            border: none; /* Kein Rand */
+            border-radius: 10px; /* Abgerundete Ecken */
+            cursor: pointer; /* Zeigeränderung bei Hover */
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Leichter Schatten */
+            transition: transform 0.2s ease; /* Animation bei Hover */
+        }
+        button:hover {
+            transform: scale(1.1); /* Vergrößert den Button bei Hover */
+            background-color: #ff1a1a; /* Etwas dunkleres Rot bei Hover */
+        }
+    </style>
+</head>
+<body>
+    <button onclick="showAlert()">notvirus</button>
+
+    <script>
+        // Funktion, die beim Klicken auf den Button ausgelöst wird
+        function showAlert() {
+            alert("10%");
+            alert("30%");
+            alert("50%");
+            alert("70%");
+            alert("90%");
+            alert("You're system was hacked");
+        }
+    </script>
+</body>
+</html>
